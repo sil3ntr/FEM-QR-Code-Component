@@ -1,7 +1,11 @@
 
-* {
-    font-family: 'Outfit', sans-serif;
+html {
     box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    font-family: 'Outfit', sans-serif;
+    box-sizing: inherit;
 }
 
 p {
